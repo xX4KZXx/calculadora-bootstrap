@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Calculadora soma">
+      <meta name="keywords" content="calculadora, soma,">
+      <meta name="author" content="Fernando">
+    
+      <link rel="icon" type="image/x-icon" href="icon.png">
+      <link rel="stylesheet" href="stylesheet.css">
+      <title>Calculadoras de notas</title>
+  
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+    
+      <form>
+
+        <div class="alert alert-primary" role="alert">
+          <h1 style="color:rgb(0, 0, 0);">Calculadora</h1>
+        </div>
+    
+        <div class="alert alert-success" role="alert">
+      <label style="color: rgb(0, 0, 0);" for="n1">Insira o primeiro valor :</label><br>
+      <input type="text" id="n1" name="n1" ><br>
+    </div>
+    <div class="alert alert-danger" role="alert">
+      <label for="n2">Insira o segundo valor :</label><br>
+      <input type="text" id="n2" name="n2" ><br>
+  </div>
+  <div class="alert alert-warning" role="alert">
+      <label for="n2">Resultado :</label><br>
+      <input type="text" id="re" name="re" ><br>
+  </div>
+
+     <button type="button" class="btn btn-primary" onclick="calcSum()">Somar</button>
+     <button type="button" class="btn btn-success" onclick="calcSub()">Subtrair</button>
+     <button type="button" class="btn btn-danger" onclick="calcmut()">Multiplicação</button>
+     <button type="button" class="btn btn-warning" onclick="calcdiv()">Dividir</button>
+  </form>
+
+  <div class="spinner-border text-dark" role="status">
+    <span class="visually-hidden">Loading...</span>
+ <h2 style="color: black;" >Calculadora</h2>
+</div>
+
+
+
+  <script src="script.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+  </body>
+  </html>

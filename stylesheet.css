@@ -1,0 +1,13 @@
+body {background-color: rgb(255, 255, 255);color: rgb(0, 0, 0) }
+  h1 { color: rgb(253, 253, 253); text-align: center;}
+form{text-align: center;}
+img, embed, object, video{max-width: 100%;}
+nav a, button{
+    min-width: 48px;
+    min-height: 48px;
+}
+@media screen and (max-width:500px) {
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+}
